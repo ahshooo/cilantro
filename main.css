@@ -1,0 +1,313 @@
+body:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1000; /* Stay behind other things */
+    max-width: 1300px; /* Constrain the size */
+    background-size: 33%;
+    background-repeat:no-repeat;
+    background-position: top left;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Fanwood", Georgia, Times, serif;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.25;
+    color: #545454;
+    padding-top: 50px;
+    background-color: #ffffff;
+    background-image: url(images/c_bg.jpg);
+    background-size: 33%;
+    background-repeat:no-repeat;
+    background-position: top left;
+    -webkit-font-smoothing: antialiased;
+}
+
+#intro {
+    float: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sections {
+    height: 300px;
+    float: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#taste {
+    height: 100%;
+    width: auto;
+    background-color: #c1d400;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #507018;
+}
+
+.ital_p {
+    font-style: italic;
+}
+/*
+.desc_taste {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    color: #507018;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-size: 0.8em;
+    font-style: normal;
+}
+*/
+.desc_taste {
+    color: #507018;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    padding: 10px 10px 20px 10px;
+}
+
+#uses {
+    height: 100%;
+    width: auto;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #507018;
+}
+
+.desc_uses {
+    display: inline-block;
+    width: 300px;
+    height: 220px;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    color: #507018;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    background-color: #c1d400;
+    border-radius: 1em;
+}
+
+.desc_uses>img {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    width: 300px;
+}
+
+#resources {
+    font-style: normal;
+    background-color: #d8ebb6;
+    height: 100%;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #507018;
+    line-height: 2;
+}
+
+.hr img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    margin-bottom: 13px;
+    width: 1em;
+    padding: 0;
+}
+
+.no_bottom_margin {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.vertical_line {
+    display: inline-block;
+    border: none;
+    height: 300px;
+    width: 1px;
+    color: #999;
+    background-color: #999;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.green_divider {
+    height: 10px;
+    width: auto;
+    background-color: #7da33a;
+}
+
+h1 {
+    font-size: 3.6em;  /* Mobile size in place of the original size. */
+    color: #7da33a;
+    font-family: "Sorts Mill Goudy", Georgia, Times, serif;
+    line-height: 1.3;
+    font-weight:100;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ /* Use original size, only on screens at least 421 pixels wide. */
+@media (min-width: 421px) {
+     h1 {
+        font-size: 5em;
+        color: #7da33a;
+        font-family: "Sorts Mill Goudy", Georgia, Times, serif;
+        line-height: 1.3;
+        font-weight:100;
+        margin-bottom: 0;
+        text-align: center;
+        }
+ }
+
+h2 {
+    color: #507018;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-weight:100;
+}
+
+h3 {
+    color: #7da33a;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-style: normal;
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight:100;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.back_to_top {
+    color: #333;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    line-height: 1.3;
+    font-weight:100;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.back_to_top a{
+    color: #333;
+    text-decoration: none;
+}
+
+h5, h6 {
+    color: #222;
+    font-family: "Sanchez", Georgia, Times, serif;
+    font-weight: 600;
+    line-height: 1.3;
+    font-weight:100;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p   {
+    font-color: 333;
+    max-width: 625px;
+    text-align: center;
+    margin: 0 auto;
+    font-style:
+}
+
+a {
+    color: #507018;
+    text-decoration: none;
+    font-style: normal;
+}
+
+a:visited {
+    color: #999;
+    text-decoration: none;
+    font-style: normal;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #999;
+    max-width: 625px;
+    background-color: #999;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 400px;
+    margin: 0 auto;
+    list-style-type:circle;
+    text-transform: uppercase;
+}
+
+li {
+    font-family: "Sanchez", Georgia, Times, serif;
+    text-align: left;
+    line-height: 2.5;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+.grid-container {
+  align-content: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 5%;
+}
+
+.grid-container img{
+      max-width: 95%;
+}
+
+.citation {
+    font-family: arial, sans-serif;
+    font-size: .50em;
+    font-style: normal;
+    color: darkgray;
+}
+
+.citation a {
+    color: dimgray;
+}
+
+.grid-container {
+  padding-bottom: 0;
+}
